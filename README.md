@@ -10,7 +10,7 @@ docker run -it ubuntu:20.04
 #### Первые команды 
 
 ```cmd
-apt-get update && apt-get install -y lsb-release && apt-get clean all
+apt-get update && apt-get install -y lsb-release && apt-get clean all && apt -y install python3-pip
 ```
 Проверить версию ubuntu
 
