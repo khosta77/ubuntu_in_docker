@@ -1,3 +1,26 @@
+# ubuntu
+
+# Настройка
+
+#### Первые команды 
+
+```cmd
+sudo apt-get update && sudo apt-get install -y lsb-release && sudo apt-get clean all && sudo apt -y install python3-pip
+```
+Проверить версию ubuntu
+
+```cmd
+lsb_release -a
+```
+
+#### Настройка
+
+Поменять второе имя в консоли
+
+```
+sudo hostnamectl set-hostname новое_имя
+```
+
 # ubuntu_in_docker
 
 Чтобы создать контейнер с ubuntu 20.04
