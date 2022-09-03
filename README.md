@@ -1,6 +1,6 @@
 # ubuntu
 
-# Настройка
+### Настройка
 
 #### Первые команды 
 
@@ -19,6 +19,11 @@ lsb_release -a
 
 ```
 sudo hostnamectl set-hostname новое_имя
+```
+
+Telegram
+```
+sudo apt install telegram-desktop
 ```
 
 # ubuntu_in_docker
