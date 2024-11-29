@@ -5,7 +5,7 @@
 #### Первые команды 
 
 ```cmd
-sudo apt-get update && sudo apt-get install -y lsb-release && sudo apt-get clean all && sudo apt -y install python3-pip clang git
+sudo apt-get update && sudo apt-get install -y lsb-release && sudo apt-get clean all && sudo apt -y install python3-pip clang git vim cmake curl
 ```
 Проверить версию ubuntu
 
@@ -14,6 +14,10 @@ lsb_release -a
 ```
 
 #### Настройка
+
+##### vim
+
+[Vundle](https://github.com/VundleVim/Vundle.vim)
 
 Поменять второе имя в консоли
 
@@ -33,24 +37,7 @@ sudo apt install telegram-desktop
 docker run -it ubuntu:20.04
 ```
 
-# Настройка
 
-#### Первые команды 
-
-```cmd
-apt-get update && apt-get install -y lsb-release && apt-get clean all && apt -y install python3-pip
-```
-Проверить версию ubuntu
-
-```cmd
-lsb_release -a
-```
-
-В идеале выведет
-
-```cmd
-Distributor ID:	Ubuntu
-Description:	Ubuntu 20.04.4 LTS
 Release:	20.04
 Codename:	focal
 
