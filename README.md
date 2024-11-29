@@ -5,7 +5,7 @@
 #### Первые команды 
 
 ```cmd
-sudo apt-get update && sudo apt-get install -y lsb-release && sudo apt-get clean all && sudo apt -y install python3-pip
+sudo apt-get update && sudo apt-get install -y lsb-release && sudo apt-get clean all && sudo apt -y install python3-pip clang git
 ```
 Проверить версию ubuntu
 
